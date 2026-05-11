@@ -38,24 +38,6 @@ Every purge command supports optional content filtering:
 
 Server Subscription unlocks `/customize` and `/stats` — set a custom nickname, avatar, remove the "Powered by PurgeBot" footer, and view detailed purge statistics, all per server.
 
-## Repositories
-
-| Repository                                                   | Description                                                                       |
-| ------------------------------------------------------------ | --------------------------------------------------------------------------------- |
-| [interactions](https://github.com/PurgeBot-net/interactions) | HTTP service — receives and routes slash commands, modals, and components         |
-| [gateway](https://github.com/PurgeBot-net/gateway)           | Gateway service — maintains the Discord WebSocket connection and publishes events |
-| [purger](https://github.com/PurgeBot-net/purger)             | Worker service — consumes purge jobs from Redis and performs message deletion     |
-| [common](https://github.com/PurgeBot-net/common)             | Shared Go library — job types, Redis helpers, guild locking                       |
-| [database](https://github.com/PurgeBot-net/database)         | Database package — PostgreSQL schema and query functions                          |
-| [locale](https://github.com/PurgeBot-net/locale)             | i18n package — all user-facing strings and translations                           |
-| [workflows](https://github.com/PurgeBot-net/workflows)       | Reusable CI/CD workflows for all services                                         |
-| [docker](https://github.com/PurgeBot-net/docker)             | Docker Compose deployment stack                                                   |
-| [template](https://github.com/PurgeBot-net/template)         | GitHub template for new service repositories                                      |
-
-## Stack
-
-Go · PostgreSQL · Redis · Kafka · Docker · GitHub Actions · Sentry
-
 ---
 
 <div align="center">
