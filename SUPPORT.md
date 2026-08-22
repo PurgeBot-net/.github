@@ -6,7 +6,7 @@
 
 ## Using the bot
 
-Run `/help` in any server where PurgeBot is present for a full overview of commands and options.
+Run `/help` in any server where PurgeBot is present for an overview of commands and options.
 
 ## Self-hosting
 

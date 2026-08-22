@@ -7,7 +7,7 @@
 
 ## What it does
 
-PurgeBot lets server administrators delete messages with surgical precision — by user, role, bot, webhook, inactivity, or deleted account, across a whole server, category, or channel. Operations run in the background with real-time progress and a one-click cancel button.
+PurgeBot lets server administrators delete messages with surgical precision — by user, role, bot, webhook, ex-member, or deleted account, across a whole server, category, or channel. Operations run in the background with real-time progress and a one-click cancel button.
 
 ### Commands
 
@@ -33,7 +33,7 @@ Purge commands support optional filtering:
 - **Case sensitivity** — optional
 - **Date range** — 1–30 days
 - **Scope** — server-wide (except `everyone`), category (with interactive channel-skip UI), or single channel
-- **Threads** — optionally include active and archived threads
+- **Threads** — optionally include active and archived threads (in server and category scopes, forum threads are always included)
 - **Bots** — optionally include bot messages (`role`, `everyone`, `inactive`)
 
 ### Premium ✨
