@@ -7,32 +7,34 @@
 
 ## What it does
 
-PurgeBot lets server administrators delete messages with surgical precision — by user, role, webhook, inactivity, or across an entire server, category, or channel. Operations run in the background with real-time progress and a one-click cancel button.
+PurgeBot lets server administrators delete messages with surgical precision — by user, role, bot, webhook, inactivity, or deleted account, across a whole server, category, or channel. Operations run in the background with real-time progress and a one-click cancel button.
 
 ### Commands
 
-| Command           | Description                                          |
-| ----------------- | ---------------------------------------------------- |
-| `/purge user`     | Delete messages from a specific user                 |
-| `/purge role`     | Delete messages from members with a specific role    |
-| `/purge everyone` | Clear all messages in a channel, category, or server |
-| `/purge inactive` | Remove messages from users who have left             |
-| `/purge webhook`  | Delete messages sent by webhooks                     |
-| `/purge deleted`  | Remove messages from deleted accounts                |
-| `/help`           | Overview of commands and parameters                  |
-| `/stats` ✨       | View purge statistics for this server                |
-| `/customize` ✨   | Custom nickname, avatar, and branding per server     |
+| Command           | Description                                       |
+| ----------------- | ------------------------------------------------- |
+| `/purge user`     | Delete messages from a specific user              |
+| `/purge role`     | Delete messages from members with a specific role |
+| `/purge everyone` | Clear all messages in a channel or category       |
+| `/purge bot`      | Delete messages sent by bots                      |
+| `/purge inactive` | Remove messages from users who have left          |
+| `/purge webhook`  | Delete messages sent by webhooks                  |
+| `/purge deleted`  | Remove messages from deleted accounts             |
+| `/help`           | Overview of commands and parameters               |
+| `/stats` ✨       | View purge statistics for this server             |
+| `/customize` ✨   | Custom nickname, avatar, and branding per server  |
+| `@PurgeBot stop`  | Stop a running purge without the cancel button    |
 
 ### Filtering
 
-Every purge command supports optional content filtering:
+Purge commands support optional filtering:
 
 - **Modes** — `contains`, `exact`, `starts_with`, `ends_with`, `regex`
 - **Case sensitivity** — optional
 - **Date range** — 1–30 days
-- **Scope** — server-wide, category (with interactive channel-skip UI), or single channel
+- **Scope** — server-wide (except `everyone`), category (with interactive channel-skip UI), or single channel
 - **Threads** — optionally include active and archived threads
-- **Bots** — optionally include bot messages
+- **Bots** — optionally include bot messages (`role`, `everyone`, `inactive`)
 
 ### Premium ✨
 

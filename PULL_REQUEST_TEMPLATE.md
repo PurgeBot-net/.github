@@ -1,7 +1,9 @@
 ## Description
+
 <!-- Describe what this PR does and why -->
 
 ## Type of Change
+
 - [ ] Bug fix
 - [ ] New feature
 - [ ] Improvement / refactor
@@ -10,9 +12,11 @@
 - [ ] Documentation
 
 ## Testing
+
 <!-- How did you test this? What scenarios were covered? -->
 
 ## Checklist
+
 - [ ] Self-reviewed the diff
 - [ ] No new warnings or lint errors
 - [ ] Relevant documentation updated (if applicable)
