@@ -30,11 +30,21 @@ PurgeBot lets server administrators delete messages with surgical precision — 
 Purge commands support optional filtering:
 
 - **Modes** — `contains`, `exact`, `starts_with`, `ends_with`, `regex`
+- **Attachments** — filters match message text, attachment filenames and attachment types, so `\.mp4$` or `image/` reach uploads
+- **Keep instead of delete** — invert any filter to delete everything *except* what it matches
 - **Case sensitivity** — optional
 - **Date range** — 1–30 days
 - **Scope** — server-wide (except `everyone`), category (with interactive channel-skip UI), or single channel
 - **Threads** — optionally include active and archived threads (in server and category scopes, forum threads are always included)
 - **Bots** — optionally include bot messages (`role`, `everyone`, `inactive`)
+
+### Exemptions
+
+Anything spared is never deleted, whatever the filter matches:
+
+- **A user** — spare one member’s messages entirely (`role`, `everyone`, `bot`, `inactive`)
+- **Specific messages** — by link or ID, separated by commas or spaces
+- **Channels** — pick channels to skip when purging a category
 
 ### Premium ✨
 
