@@ -7,23 +7,24 @@
 
 ## What it does
 
-PurgeBot lets server administrators delete messages with surgical precision — by user, role, bot, webhook, ex-member, or deleted account, across a whole server, category, or channel. Operations run in the background with real-time progress and a one-click cancel button.
+PurgeBot lets server administrators delete messages with surgical precision — by user, role, bot, webhook, ex-member, or deleted account, across a whole server, category, or channel. Operations run in the background with real-time progress, and whoever started one can call it off at any time — via `/cancel`, the cancel button, or by posting `@PurgeBot cancel`.
 
 ### Commands
 
-| Command           | Description                                       |
-| ----------------- | ------------------------------------------------- |
-| `/purge user`     | Delete messages from a specific user              |
-| `/purge role`     | Delete messages from members with a specific role |
-| `/purge everyone` | Clear all messages in a channel or category       |
-| `/purge bot`      | Delete messages sent by bots                      |
-| `/purge inactive` | Remove messages from users who have left          |
-| `/purge webhook`  | Delete messages sent by webhooks                  |
-| `/purge deleted`  | Remove messages from deleted accounts             |
-| `/help`           | Overview of commands and parameters               |
-| `/stats` ✨       | View purge statistics for this server             |
-| `/customize` ✨   | Custom nickname, avatar, and branding per server  |
-| `@PurgeBot stop`  | Stop a running purge without the cancel button    |
+| Command            | Description                                       |
+| ------------------ | ------------------------------------------------- |
+| `/purge user`      | Delete messages from a specific user              |
+| `/purge role`      | Delete messages from members with a specific role |
+| `/purge everyone`  | Clear all messages in a channel or category       |
+| `/purge bot`       | Delete messages sent by bots                      |
+| `/purge inactive`  | Remove messages from users who have left          |
+| `/purge webhook`   | Delete messages sent by webhooks                  |
+| `/purge deleted`   | Remove messages from deleted accounts             |
+| `/cancel`          | Cancel a purge you started                        |
+| `/help`            | Overview of commands and parameters               |
+| `/stats` ✨        | View purge statistics for this server             |
+| `/customize` ✨    | Custom nickname, avatar, and branding per server  |
+| `@PurgeBot cancel` | Same as `/cancel`, without the command menu       |
 
 ### Filtering
 
