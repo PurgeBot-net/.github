@@ -7,7 +7,7 @@
 
 ## What it does
 
-PurgeBot lets server administrators delete messages with surgical precision — by user, role, bot, webhook, ex-member, or deleted account, across a whole server, category, or channel. Operations run in the background with real-time progress, and whoever started one can call it off at any time — via `/cancel`, the cancel button, or by posting `@PurgeBot cancel`.
+PurgeBot lets server administrators delete messages with surgical precision — by user, role, bot, webhook, ex-member, or deleted account, across a whole server, category, or channel. Operations run in the background with real-time progress, and whoever started one can cancel it with `/cancel`, the cancel button, or `@PurgeBot cancel`.
 
 ### Commands
 
