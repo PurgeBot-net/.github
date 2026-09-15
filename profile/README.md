@@ -2,7 +2,7 @@
 
 > **Powerful, precise message management for Discord servers.**
 
-[![Invite Bot](https://img.shields.io/badge/Invite-PurgeBot-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/oauth2/authorize?client_id=1356612233878179921&permissions=74752&integration_type=0&scope=bot)
+[![Invite Bot](https://img.shields.io/badge/Invite-PurgeBot-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/oauth2/authorize?client_id=1356612233878179921)
 [![Support Server](https://img.shields.io/badge/Support-Server-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://support.purgebot.net)
 
 ## What it does
@@ -55,6 +55,6 @@ Server Subscription unlocks `/customize` and `/stats` — set a custom nickname,
 
 <div align="center">
 
-**[Invite PurgeBot](https://discord.com/oauth2/authorize?client_id=1356612233878179921&permissions=74752&integration_type=0&scope=bot)** · **[Support Server](https://support.purgebot.net)**
+**[Invite PurgeBot](https://discord.com/oauth2/authorize?client_id=1356612233878179921)** · **[Support Server](https://support.purgebot.net)**
 
 </div>
