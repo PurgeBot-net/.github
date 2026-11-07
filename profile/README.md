@@ -55,6 +55,6 @@ Server Subscription unlocks `/customize` and `/stats` — set a custom nickname,
 
 <div align="center">
 
-**[Invite PurgeBot](https://discord.com/oauth2/authorize?client_id=1356612233878179921)** · **[Support Server](https://support.purgebot.net)**
+**[Invite PurgeBot](https://discord.com/oauth2/authorize?client_id=1356612233878179921)** · **[Support Server](https://support.purgebot.net)** · **[Privileged Intents](https://github.com/PurgeBot-net/.github/blob/main/docs/privileged-intents.md)**
 
 </div>
