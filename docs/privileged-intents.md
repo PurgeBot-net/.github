@@ -7,7 +7,7 @@ PurgeBot's answers for Discord's **Request Intents Review** form, as of November
 **What does your application do?**
 
 ```text
-PurgeBot is a Discord bot for deleting messages in bulk. The server owner, and anyone with a role the owner has granted access, run /purge on a channel, a category or the whole server, and choose whose messages go: one user, members with a role, everyone, bots, webhooks, people who left the server, or deleted accounts.
+PurgeBot is a Discord bot for deleting messages in bulk. The server owner and anyone with a role they've allowed can run /purge on a channel, a category or the whole server, and choose whose messages go: one user, members with a role, everyone, bots, webhooks, people who left the server, or deleted accounts.
 
 A purge can be limited to the last 1-30 days and can skip a user, specific messages or channels. With a text filter, it deletes only the messages that match, or only the ones that don't. Purges run in the background with a live progress message and can be cancelled at any time.
 

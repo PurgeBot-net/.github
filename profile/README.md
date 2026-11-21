@@ -7,7 +7,7 @@
 
 ## What it does
 
-PurgeBot lets the server owner, and members of roles the owner grants access with `/settings access add`, delete messages with surgical precision — by user, role, bot, webhook, ex-member, or deleted account across a whole server, category, or channel, or everyone's messages in a channel or category. Operations run in the background with real-time progress, and whoever started one (or the server owner) can cancel it with `/cancel`, the cancel button, or `@PurgeBot cancel`.
+PurgeBot lets server owners, and the roles they give access with `/settings access add`, delete messages with surgical precision — by user, role, bot, webhook, ex-member, or deleted account, across a whole server, category, or channel. `/purge everyone` clears everyone's messages in a channel or category. Operations run in the background with real-time progress, and whoever started one (or the server owner) can cancel it with `/cancel`, the cancel button, or `@PurgeBot cancel`.
 
 ### Commands
 
@@ -25,7 +25,7 @@ PurgeBot lets the server owner, and members of roles the owner grants access wit
 | `/stats` ✨                | View purge statistics for this server             |
 | `/customize edit` ✨       | Custom nickname, avatar, and branding per server  |
 | `/customize clear` ✨      | Reset the nickname, avatar, and branding          |
-| `/settings stats`         | Turn purge statistics on, or off and delete them  |
+| `/settings stats`         | Turn purge statistics on or off; off deletes them |
 | `/settings access add`    | Let members with a role use PurgeBot (owner only) |
 | `/settings access remove` | Revoke access from a role (owner only)            |
 | `/settings access list`   | Show which roles can use PurgeBot                 |
