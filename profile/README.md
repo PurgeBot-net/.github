@@ -7,24 +7,29 @@
 
 ## What it does
 
-PurgeBot lets server administrators delete messages with surgical precision — by user, role, bot, webhook, ex-member, or deleted account, across a whole server, category, or channel. Operations run in the background with real-time progress, and whoever started one (or the server owner) can cancel it with `/cancel`, the cancel button, or `@PurgeBot cancel`.
+PurgeBot lets the server owner, and members of roles the owner grants access with `/settings access add`, delete messages with surgical precision — by user, role, bot, webhook, ex-member, or deleted account across a whole server, category, or channel, or everyone's messages in a channel or category. Operations run in the background with real-time progress, and whoever started one (or the server owner) can cancel it with `/cancel`, the cancel button, or `@PurgeBot cancel`.
 
 ### Commands
 
-| Command            | Description                                       |
-| ------------------ | ------------------------------------------------- |
-| `/purge user`      | Delete messages from a specific user              |
-| `/purge role`      | Delete messages from members with a specific role |
-| `/purge everyone`  | Clear all messages in a channel or category       |
-| `/purge bot`       | Delete messages sent by bots                      |
-| `/purge inactive`  | Remove messages from users who have left          |
-| `/purge webhook`   | Delete messages sent by webhooks                  |
-| `/purge deleted`   | Remove messages from deleted accounts             |
-| `/cancel`          | Cancel a running purge                            |
-| `/help`            | Overview of commands and parameters               |
-| `/stats` ✨        | View purge statistics for this server             |
-| `/customize` ✨    | Custom nickname, avatar, and branding per server  |
-| `@PurgeBot cancel` | Same as `/cancel`, without the command menu       |
+| Command                   | Description                                       |
+| ------------------------- | ------------------------------------------------- |
+| `/purge user`             | Delete messages from a specific user              |
+| `/purge role`             | Delete messages from members with a specific role |
+| `/purge everyone`         | Clear all messages in a channel or category       |
+| `/purge bot`              | Delete messages sent by bots                      |
+| `/purge inactive`         | Remove messages from users who have left          |
+| `/purge webhook`          | Delete messages sent by webhooks                  |
+| `/purge deleted`          | Remove messages from deleted accounts             |
+| `/cancel`                 | Cancel a running purge                            |
+| `/help`                   | Overview of commands and parameters               |
+| `/stats` ✨                | View purge statistics for this server             |
+| `/customize edit` ✨       | Custom nickname, avatar, and branding per server  |
+| `/customize clear` ✨      | Reset the nickname, avatar, and branding          |
+| `/settings stats`         | Turn purge statistics on, or off and delete them  |
+| `/settings access add`    | Let members with a role use PurgeBot (owner only) |
+| `/settings access remove` | Revoke access from a role (owner only)            |
+| `/settings access list`   | Show which roles can use PurgeBot                 |
+| `@PurgeBot cancel`        | Same as `/cancel`, without the command menu       |
 
 ### Filtering
 
@@ -32,9 +37,10 @@ Purge commands support optional filtering:
 
 - **Modes** — `contains`, `exact`, `starts_with`, `ends_with`, `regex`
 - **Attachments** — filters match message text, attachment filenames and attachment types, so `\.mp4$` or `image/` reach uploads
-- **Keep instead of delete** — invert any filter to delete everything *except* what it matches
+- **Keep instead of delete** — invert any text filter to delete everything *except* what it matches
 - **Case sensitivity** — optional
-- **Date range** — 1–30 days
+- **Flagged media** — only delete messages with media Discord flagged as explicit, gore or self-harm
+- **Date range** — only the last 1–30 days
 - **Scope** — server-wide (except `everyone`), category (with interactive channel-skip UI), or single channel
 - **Threads** — optionally include active and archived threads (in server and category scopes, forum threads are always included)
 - **Bots** — optionally include bot messages (`role`, `everyone`, `inactive`)
